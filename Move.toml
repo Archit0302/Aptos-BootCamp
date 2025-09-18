@@ -1,0 +1,15 @@
+[package]
+name = "APIforOn-chainGPAIntegrationforotherapps"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "90ee7e876d4ab1bf9d1160ad4425e9682917df27733718e12bf481201e6ae74a"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
